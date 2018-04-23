@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans|Permanent+Marker" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Antonia</title>
+</head>
+
+<body>
+<div class="container">
+
+
+  <div id="using_guide">
+
+        <div class="guide_previous_block">
+            <div class="guide_text_box">
+            	<i class="fa fa-hand-o-left" aria-hidden="true"></i>
+        	<p>hover over here for the previous chapter</p>
+             </div>
+		</div>
+
+		<div class="guide_close">
+
+			<i class="guide_close_cta fa fa-times-circle-o fa-3x" aria-hidden="true"></i>
+			<h3>close guide</h3>
+
+		</div>
+
+
+		  <div class="guide_next_block">
+
+		  	 <div class="guide_text_box">
+            	<i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        	<p>hover over here for the next chapter</p>
+             </div>
+		</div>
+  </div>
+
+		<div class="chapter_video">
+
+			<video id="chapter_1_video"  autoplay="">
+			<source src="video/train_1.mov" type="video/mp4">
+			</video>
+
+			<div id="vid_control_bar">
+				   <div id="chapter_titles" class="chapter_1_title_1 d-none">
+				   		<i class="fa fa-circle" style="float: left; margin: 2px 5px 0 0;" aria-hidden="true"></i>
+									<p style=" margin: 0; float: left;"> Read Article One</p>
+				   </div>
+
+				    <div id="chapter_titles" class="chapter_1_title_2 d-none">
+				   		<i class="fa fa-circle" style="float: left; margin: 2px 5px 0 0;" aria-hidden="true"></i>
+									<p style=" margin: 0; float: left;"> Read Article Two</p>
+				   </div>
+				 
+					<div class="row d-inline-block" style="margin:0;width:100%;padding:5px 20px;">
+							<button class="col-1 float-left"><i id="pause_button" class="fa fa-pause fa-2x" aria-hidden="true"></i></button>
+							<div class="col-9 float-left" style="padding-top: 3px;">
+									<div class="row">
+										<div class="row">
+													</div>
+											<div class="col-1 d-inline-block current_wrapper">
+													<span class="current"></span>
+											</div>
+											<div class="col-10 progressBar">
+													<div class="progressTime"></div>
+													<div class="timeBar"></div>
+													<div class="row">
+															 <div class="time_dots chapter_1_dot_1">
+															 	<i class="fa fa-circle" aria-hidden="true"></i>
+															 </div>
+															 <div class="time_dots chapter_1_dot_2">
+															 	<i class="fa fa-circle" aria-hidden="true"></i>
+															 </div>
+													</div>
+													
+											</div>
+
+											<div class="col-1 d-inline-block duration_wrapper">
+													<span class="duration"></span>
+											</div>
+									</div>
+							</div>
+
+							<div class="col-2 float-left">
+									<div class="row" style="padding-top: 3px;"x>
+											<button class="float-left col-2 muted"><i id="mute_button" class="fa fa-volume-up fa-2x float-left" aria-hidden="true"></i></button>
+											<div class="col-9 volumeFull d-inline-block">
+													<div class="volumeBar">
+															<div class="volume"></div>
+													</div>
+											</div>
+
+									</div>
+							</div>
+
+					</div>
+			</div> 	
+		</div>
+
+        <div id="previous_block">
+		</div>
+		<div id="previous_chapter">
+			<button><a href="index.html"><div class="previous_next_chapter_cta"><h3>Previous <br>Chapter</h3></div></a></button>
+		</div>
+
+
+ <div id="next_block">
+		</div>
+		<div id="next_chapter">
+			<button style="float: right;"><a href="chapter_2.html"><div class="previous_next_chapter_cta"><h3>Next <br>CHAPTER</h3></div></a></button>
+		</div>
+
+
+
+		<div id="article_1" class="col-md-6 col-lg-4 float-right d-none" >
+
+			<p style="text-align: justify;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+			<button><div id="story_1" class="read_more_cta"><h2>READ MORE</h2></div></button>
+			
+					<div class="resume_button">
+					<button><i class="fa fa-play-circle fa-4x" aria-hidden="true"></i></button>
+					</div>
+
+		</div>
+
+		<div id="story_1_wrapper" class="col-lg-11 d-none">
+               <div class="row" style="height: 100%;">
+              		<i class="close_cta fa fa-times-circle-o fa-3x" aria-hidden="true"></i>
+              	<div class="col-5 story_dif_left">
+<img class="story_col_img" src="./images/djurgarden.jpg">
+              	
+              	</div>
+              	<div class="col-7 story_col_text">
+              		<h1 style="margin-bottom: 15px;">Djurgarden IF</h1>
+              		<h3>something</h3>
+              		<p style="text-align: justify;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              		<h3>something</h3>
+              		<p style="text-align: justify;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              			<h3>something</h3>
+              		<p style="text-align: justify;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+		</div>
+                </div>
+              </div>
+
+
+		<div id="article_2" class="col-md-6 col-lg-4 float-right d-none" >
+
+			<p style="text-align: justify;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+			<button><div id="story_2" class="read_more_cta"><h2>READ MORE</h2></div></button>
+					<div class="resume_button">
+					<button><i class="fa fa-play-circle fa-4x" aria-hidden="true"></i></button>
+					</div>
+
+		</div>
+
+</div><!-- container -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/video.js"></script>
+</body>

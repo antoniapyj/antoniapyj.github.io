@@ -34,6 +34,14 @@ body {
 h1,h2,h3{
 font-family: 'astounder-squared-bb', sans-serif;
 }
+
+
+h1{
+
+font-size: 3rem;
+
+}
+
 button{
   background:transparent;
   border: none;
@@ -268,7 +276,7 @@ margin-right: 30px;
 
 #menu-icon{
 
-  position: relative;
+  position: absolute;
   color: #fff;
   width: 100%;
   display: none;
@@ -276,8 +284,19 @@ margin-right: 30px;
   font-size: 30px;
 }
 
+#menu-open-icon{
+  position: relative;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  z-index: 220;
+
+}
+
+
 .menu-icon{
-    padding: 10px 7px;
+    padding: 5px 7px;
 }
 
 .logo{
@@ -298,7 +317,36 @@ margin-right: 30px;
   position: absolute;
   color: white;
   text-align: center;
+  letter-spacing: 5px;
   padding-top: 200px;
+
+}
+
+#homepage-bcg{
+
+   width: 100%;
+  background-image: url(../images/placeholder.jpg);
+  background-size: cover;
+    height: 100vh;
+
+}
+
+.whoareya p{
+  width: 500px;
+  text-align: center;
+  font-weight: 900;
+  margin: 0 auto;
+}
+
+.whoareya-logo{
+
+  width: 1000px;
+  text-align: center;
+  font-family: 'astounder-squared-bb', sans-serif;
+  font-size: 12rem;
+  margin:0 auto;
+  padding: 130px 0 20px 0;
+  line-height: 12rem;
 
 }
 

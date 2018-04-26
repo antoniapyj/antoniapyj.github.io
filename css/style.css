@@ -350,6 +350,20 @@ margin-right: 30px;
 
 }
 
+.whoareya-button{
+
+width: 200px;
+height: 50px;
+border-radius: 10px;
+margin: 70px auto;
+text-align: center;
+background-color: #6e0240;
+color: white;
+padding: 10px 0;
+letter-spacing: 3px;
+}
+
+
 #chapter_1_video{
     position: fixed;
     top: 50%;

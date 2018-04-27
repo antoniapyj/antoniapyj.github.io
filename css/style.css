@@ -742,82 +742,48 @@ opacity: 1;
 
 
 
-.story_text_wrapper{
 
-  width: 60%;
-  margin: 20% auto;
-     -webkit-animation: story_text 2s;
-    -moz-animation: story_text 2s;
-    -o-animation: story_text 2s;
-    animation: story_text 2s;
 
+@media (max-width: 400px){
+
+#homepage{
+  background-image: url(../images/bcg-mobile.jpg);
+    background-size: 100% auto;
 }
 
+.whoareya-logo {
+    padding: 0;
+    width: 60%;
+    margin: -5px auto -50px;
+}
 
-@keyframes dots_trans {
-    0% {
-    width: 30px;
-  height:30px;
-  }
+.whoareya p {
+    width: 60%;
+    margin-top: -50px;
+    font-size: 0.8rem;
 
-   20%{
-   width: 40px;
-  height:40px;
     }
-    40% {
-    width: 30px;
-  height:30px;
-  }
 
-   60%{
-   width: 40px;
-  height:40px;
-    }
-     80% {
-    width: 30px;
-  height:30px;
-  }
 
-   100%{
-   width: 40px;
-  height:40px;
-    }
+.whoareya-button h3{
+  font-size: 1.5rem;
 }
-
-#past_story_1_wrapper{
-
- position: absolute;
- top:20%;
-  right: 20%;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
 
 }
 
 
-#past_story_1_wrapper p{
+@media (min-width: 401px) and (max-width: 700px){
 
- position: relative;
- font-size: 20px;
- padding: 2px 10px;
+  .whoareya-logo{
 
-}
+    padding: 0;
+    margin: 20px auto 0px;
+} 
 
-#past_story_1{
- 
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  z-index: 5;
-border: 6px solid white;
-   -webkit-animation: dots_trans 5s;
-    -moz-animation: dots_trans 5s;
-    -o-animation: dots_trans 5s;
-    animation: dots_trans 5s;
 }
 
 @media (max-width: 700px){
+
 .header{display: none;}
 
 .mobile-menu{
@@ -827,11 +793,15 @@ display: inline-block;
 
 }
 
-.whoareya-logo{
+  .whoareya-button{
+margin: 30px auto 50px;
+padding: 10px 0;
 
-    padding: 2% 0 0 0;
-} 
+}
 
+a:hover{
+  color: #ffa31a;
+}
 
 }
 
@@ -841,19 +811,19 @@ display: inline-block;
 
  .whoareya-logo{
 
-    padding: 4% 0 0 0;
+    padding: 5% 0 0 0;
 } 
-
-}
-
-
-
-@media (max-width: 900px) {
 
 .whoareya-button{
 
-  margin: 20px auto 50px auto;
+  margin: 40px auto 60px auto;
 }
+
+}
+
+
+
+@media (min-width: 401px) and (max-width: 900px) {
 
 
  .whoareya p{
@@ -865,19 +835,22 @@ display: inline-block;
 
 @media (max-width: 1100px) {
 
+  .container{
+    padding: 2% 0 0 0;
+      height: 100%;
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 1100px) {
+
   #homepage{
 
    background-image: url(../images/bcg-sml.jpg);
   background-size: 100% auto;
 }
 
-  .container{
-    padding: 2% 0 0 0;
-      height: 100%
-  }
-
 }
-
 
 
 @media (min-width: 901px) and (max-width: 1100px) {

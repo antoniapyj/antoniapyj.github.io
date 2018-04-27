@@ -21,4 +21,14 @@ $(document).ready(function(){
       });
     } // End if
   });
+
+
+
+
+
+  $('.mobile-menu-icon').click(function(){
+
+$('#mobile-menu-list').toggleClass('d-none d-inline-block');
+
+  });
 });

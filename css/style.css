@@ -67,7 +67,6 @@ a:hover{
 
 a:visited{
   text-decoration: none;
-    color: #333;
 }
 
 .header{
@@ -259,6 +258,62 @@ margin-right: 30px;
   text-align: center;
 }
 
+.mobile-menu-container{
+
+      position: fixed;
+       width: 100%;
+}
+
+
+
+.mobile-menu{
+
+text-align: center;
+display: none;
+ background: rgba(255,255,255,0.8);
+    padding: 5px 10px 0;
+}
+
+
+.mobile-logo{
+
+  width: 50px;
+  margin: -10px auto 0;
+}
+
+#mobile-menu-list{
+
+position: relative;
+background-color: rgba(43,43,107,0.9);
+color: white;
+width: 100%;
+padding: 10px 0;
+height: 180px;
+}
+
+ul{
+
+ padding: 0;
+
+}
+
+li{
+    border-bottom: solid 1px white;
+    width: 80%;
+    padding: 10px 0;
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+    font-family: 'astounder-squared-bb', sans-serif;
+    letter-spacing: 3px;
+}
+
+li:nth-child(4){
+border:none;
+
+}
+
+
 
 /*end for mobile*/
 
@@ -339,7 +394,7 @@ margin-right: 30px;
 
 }
 
-#homepage-bcg{
+#homepage{
 
    width: 100%;  
    background-image: url(../images/bcg-midup.jpg);
@@ -762,23 +817,72 @@ border: 6px solid white;
     animation: dots_trans 5s;
 }
 
+@media (max-width: 700px){
+.header{display: none;}
+
+.mobile-menu{
+
+width: 100%;
+display: inline-block;
+
+}
+
+.whoareya-logo{
+
+    padding: 2% 0 0 0;
+} 
+
+
+}
+
+
+@media(min-width: 701px) and (max-width: 900px) {
+
+
+ .whoareya-logo{
+
+    padding: 4% 0 0 0;
+} 
+
+}
 
 
 
+@media (max-width: 900px) {
+
+.whoareya-button{
+
+  margin: 20px auto 50px auto;
+}
+
+
+ .whoareya p{
+  width: 50%;
+  margin-top: -30px;
+}
+
+}
 
 @media (max-width: 1100px) {
+
+  #homepage{
+
+   background-image: url(../images/bcg-sml.jpg);
+  background-size: 100% auto;
+}
 
   .container{
     padding: 2% 0 0 0;
       height: 100%
   }
 
-#homepage-bcg{
-
-
-   background-image: url(../images/bcg-sml.jpg);
-  background-size: 100% auto;
 }
+
+
+
+@media (min-width: 901px) and (max-width: 1100px) {
+
+
 .whoareya-logo{
 
     padding: 8% 0 0 0;

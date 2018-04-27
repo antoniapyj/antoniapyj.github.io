@@ -61,7 +61,7 @@ a{
 
 a:hover{
   text-decoration:none; 
-    color: #333;
+    color:black;
 }
 
 a:visited{
@@ -70,11 +70,18 @@ a:visited{
 }
 
 .header{
-background-color: #ffa31a;
+/* background: rgba(255,163,26,0); */
+background: #ffa31a; /* For browsers that do not support gradients */
+background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.4));
+z-index: 500;
 margin: 0 auto;
 text-align: center;
-padding: 5px;
+padding: 15px;
 color: white;
+ position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
 
 }
 
@@ -230,20 +237,7 @@ float: right;
     animation: intro_trans 2s;
 }
 
-.next_chapter_cta{
 
-  border: solid; 3px #fff;
-  margin-top:20px;
-  padding: 20px 40px;
-  background-color: transparent;
-  color: #fff;
-}
-
-.next_chapter_cta:hover{
-background-color: #333;
-transition: 1s;
-
-}
 
 /*for mobile*/
 

@@ -746,10 +746,7 @@ opacity: 1;
 
 @media (max-width: 400px){
 
-#homepage{
-  background-image: url(../images/bcg-mobile.jpg);
-    background-size: 100% auto;
-}
+
 
 .whoareya-logo {
     padding: 0;
@@ -783,6 +780,11 @@ opacity: 1;
 }
 
 @media (max-width: 700px){
+
+  #homepage{
+  background-image: url(../images/bcg-mobile.jpg);
+    background-size: 100% auto;
+}
 
 .header{display: none;}
 
@@ -842,7 +844,7 @@ a:hover{
 
 }
 
-@media (min-width: 401px) and (max-width: 1100px) {
+@media (min-width: 701px) and (max-width: 1100px) {
 
   #homepage{
 

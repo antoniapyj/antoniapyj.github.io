@@ -819,14 +819,20 @@ overflow-y: scroll;
 
 } 
 
-@media (min-width: 769px) {
+@media (min-width: 1800px) {
   
-  #intro_text{
-    display: none;
-  }
+ .whoareya p{
+  width: 700px;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
 
-   #video_button{
-    display:inline-block;
-  }
+.whoareya-logo{
+
+  width: 1000px;
+
+}
+
+
 }
 

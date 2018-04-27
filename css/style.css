@@ -366,7 +366,7 @@ height: auto;}
 
 .whoareya-logo{
 
-  width: 1000px;
+  width: 700px;
   text-align: center;
   font-family: 'astounder-squared-bb', sans-serif;
   font-size: 12rem;
@@ -830,12 +830,3 @@ overflow-y: scroll;
   }
 }
 
-
-@media (max-width: 1320px) {
-
-.typewriter p{
-  width: 80%;
-  font-size: 18px;
-}
-  
-}

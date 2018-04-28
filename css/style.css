@@ -16,12 +16,13 @@
 
 
 
-
-body {
-  margin: 0;
-  font-family: 'PT Sans', sans-serif;
-  display: inline-block;
-  width: 100%;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 
@@ -262,6 +263,7 @@ margin-right: 30px;
 
       position: fixed;
        width: 100%;
+       z-index: 10;
 }
 
 
@@ -471,6 +473,51 @@ width:100%;
 height:80%;
 
 }
+
+.section-title{
+  text-align: center;
+  padding: 30px 0 0 0;
+  letter-spacing: 5px;
+  background-color: rgba(0,0,0,0);
+}
+
+.casestudy-box-left-pic{
+  margin-right: -15px;
+}
+
+.casestudy-box-right-text{
+  margin-left: -15px;
+}
+
+
+.casestudy-box{
+  margin-bottom: 30px;
+}
+.case-textbox{
+  width: 100%;
+    position: absolute;
+  bottom: 0;
+  letter-spacing: 5px;
+  color: white;
+  text-align: center;
+  padding: 12% 0;
+  height: 70%;
+  background-color: #2b2b6b;
+}
+
+.case-textbox h2{
+
+max-width: 95%;
+margin: 0 auto;
+  font-size: 4rem;
+}
+
+.case-textbox p{
+padding-top: 30px;
+text-decoration: underline;
+  font-size: 1.5rem;
+}
+
 
 #chapter_1_video{
     position: fixed;
@@ -796,6 +843,51 @@ opacity: 1;
 
 }
 
+
+@media (max-width: 575px){
+
+  .casestudy-box-right-text{
+
+    height: 140px;
+  }
+ .case-textbox{
+  padding: 8% 0;
+  height:100%;
+ }
+
+ .case-textbox h2{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+  .case-textbox h3{
+  font-size: 0.6rem;
+}
+
+ .case-textbox p{
+  font-size: 0.8rem;
+  padding-top: 5px;
+}}
+
+
+@media (min-width: 576px) and (max-width: 700px){
+ .case-textbox{
+  padding: 6% 0;
+  height: 70%;
+ }
+
+ .case-textbox h2{
+  font-size: 1.5rem;
+}
+  .case-textbox h3{
+  font-size: 0.8rem;
+}
+
+ .case-textbox p{
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+}
+
 @media (max-width: 700px){
 
   .vimeo{
@@ -849,6 +941,14 @@ a:hover{
   margin: 40px auto 60px auto;
 }
 
+  .case-textbox{
+padding: 10% 0;
+  }
+
+  .case-textbox h2{
+  font-size: 2.5rem;
+}
+
 }
 
 
@@ -861,6 +961,9 @@ a:hover{
   margin-top: -30px;
 }
 
+
+
+
 }
 
 @media (max-width: 1100px) {
@@ -869,6 +972,7 @@ a:hover{
     padding: 2% 0 0 0;
       height: 100%;
   }
+
 
 }
 
@@ -884,6 +988,11 @@ a:hover{
 
 
 @media (min-width: 901px) and (max-width: 1100px) {
+
+  .case-textbox h2{
+
+  font-size: 3rem;
+}
 
 
 .whoareya-logo{

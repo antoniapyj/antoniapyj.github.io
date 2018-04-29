@@ -70,6 +70,23 @@ a:visited{
   text-decoration: none;
 }
 
+input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #CCC;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#myInput{
+  color: white;
+}
+
+
 .header{
 /* background: rgba(255,163,26,0); */
 background: #ffa31a; /* For browsers that do not support gradients */

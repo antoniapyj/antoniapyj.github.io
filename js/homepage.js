@@ -20,12 +20,4 @@ $('#mobile-menu-list').toggleClass('d-none d-inline-block');
 
   });
 
-
-  $('.action-text').click(function(){
-
-  $('.action-icon').toggleClass('d-none d-inline-block');
-
-  });
-
-
 });

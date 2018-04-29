@@ -408,11 +408,12 @@ border:none;
 #thestory{
 
 width:100%;
-background-color: rgba(0,0,0,0.5);
-height: auto;}
+position: relative;}
 
 
-
+#casestudies{
+  position: relative;
+}
 
 .whoareya p{
   width: 500px;

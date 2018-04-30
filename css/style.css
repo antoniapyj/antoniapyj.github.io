@@ -497,21 +497,47 @@ padding: 5px;
 }
 
 .about-box{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
-.credit h2{
+.contact a{
 
-      font-size: 4rem;
+  color: white;
+}
+.contact a:hover{
+text-decoration: underline;
+color: #6e0240;
+
+}
+
+.email{
+  margin-bottom: 40px;
+}
+
+.credit h2, .contact h2{
+
+      font-size: 3rem;
     margin: 20px 0;
     letter-spacing: 3px;
     color: white;
 }
 
-.credit p{
+.credit p, .contact p{
 
    margin-bottom: 0;
+}
+
+.credit-title{
+
+  font-size: 2.5rem;
+  width: 100%;
+  color: #2b2b6b;
+  font-family: 'astounder-squared-bb', sans-serif;
+}
+
+.contact-box{
+  margin-left: 0px;
 }
 
 
@@ -536,6 +562,7 @@ padding: 5px;
 .whoareya-button h3{
   font-size: 1.5rem;
 }
+
 
 }
 
@@ -597,6 +624,32 @@ padding: 5px;
   color: black;
   position: absolute;
 }
+.about-box{
+
+  margin-top:-40px;
+}
+
+.credit h2, .contact h2{
+
+      font-size: 2rem;
+      margin:0 0 10px;
+       }
+
+.credit-title{
+
+font-size: 1.75rem;
+}
+
+.credit h3, .contact h3{
+
+      font-size: 1.1rem;
+}
+
+.credit p, .contact p{
+
+   font-size: 0.8rem;
+}
+
 
 }
 
@@ -623,6 +676,7 @@ padding: 5px;
 
   width: 95%;
 }
+
 }
 
 @media (max-width: 700px){
@@ -671,7 +725,11 @@ a:hover{
 
 .takeaction-box{
   width: 45%;
+}
 
+.credit h3, .contact h3{
+
+      font-size: 1.25rem;
 }
 
 }
@@ -708,6 +766,10 @@ padding: 10% 0;
   width: 95%;
 }
 
+.credit h3, .contact h3{
+
+      font-size: 1.25rem;
+}
 
 
 
@@ -727,7 +789,6 @@ padding: 10% 0;
   width: 50%;
   margin-top: -30px;
 }
-
 
 
 

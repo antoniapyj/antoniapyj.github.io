@@ -460,7 +460,7 @@ text-decoration: underline;
 .takeaction-box{
 
   width: 60%;
-  height: 500px;
+  height: 100%;
   margin: 40px auto;
   background-color: white;
 }
@@ -496,6 +496,23 @@ font-size: 0.8rem;
 padding: 5px;
 }
 
+.about-box{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.credit h2{
+
+      font-size: 4rem;
+    margin: 20px 0;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.credit p{
+
+   margin-bottom: 0;
+}
 
 
 @media (max-width: 400px){

@@ -62,8 +62,8 @@ a{
 }
 
 a:hover{
-  text-decoration:none; 
-    color:black;
+  text-decoration:underline; 
+    color:#6e0240;
 }
 
 a:visited{
@@ -477,7 +477,11 @@ margin: 10px 0 20px;
 
 }
 
+.action-text a{
 
+  font-size: 2rem;
+  margin: 0 auto;
+}
 
 .action-text h3{
 
@@ -882,8 +886,15 @@ margin: 30px 0 40px;
 background-image: url(../images/logo-blk-lg.png);
 }
 
+.action-icon{
 
+  width: 70%;
+  margin: 0 auto;
+}
 
+.case-container{
+  height: 100vh;
+}
 
 }
 

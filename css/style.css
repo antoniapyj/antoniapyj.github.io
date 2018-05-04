@@ -912,9 +912,9 @@ padding: 10% 0;
 @media (min-width: 1800px) {
   
  .whoareya p{
-  width: 700px;
-  font-weight: 900;
-  font-size: 1.5rem;
+  width: 1000px;
+  font-weight: 800;
+  font-size: 1.8rem;
 }
 
 #homepage .container{

@@ -544,6 +544,65 @@ color: #6e0240;
   margin-left: 0px;
 }
 
+#theidea{
+  background-color: #ffa31a;
+
+}
+
+#theanimation{
+  background-color: #2b2b6b;
+
+}
+
+#thescript, #theidea, #theanimation{
+    padding-bottom: 50px; 
+
+}
+
+.bts-container{
+
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.title-box,  .img-box, .text-box{
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+
+.text-box{
+
+ text-align: justify;
+ color: white;
+ letter-spacing: 1px;
+
+}
+
+.title-box h3{
+
+color: #2b2b6b;
+font-size: 4rem;
+}
+
+.script-title h3{
+  color: #ffa31a;
+}
+
+
+.animation-title h3{
+  color: white;
+}
+.script{
+  color: black;
+}
+
+.img-box img{
+
+  width: 100%;
+}
 
 @media (max-width: 400px){
 
@@ -555,12 +614,7 @@ color: #6e0240;
     margin: -5px auto -50px;
 }
 
-.whoareya p {
-    width: 60%;
-    margin-top: -50px;
-    font-size: 0.8rem;
 
-    }
 
 
 .whoareya-button h3{
@@ -623,6 +677,14 @@ color: #6e0240;
   padding: 10% 5%; 
   line-height: 1.5rem;
 }
+
+.whoareya p {
+    width: 60%;
+    margin-top: -50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    }
 
 .bat-close, .brew-close, .ster-close, .anton-close{
   color: black;

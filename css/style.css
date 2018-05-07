@@ -549,12 +549,12 @@ color: #6e0240;
 
 }
 
-#theanimation{
+#theanimation, #website{
   background-color: #2b2b6b;
 
 }
 
-#thescript, #theidea, #theanimation{
+#thescript, #theidea, #theanimation, #website, #voiceover{
     padding-bottom: 50px; 
 
 }
@@ -637,6 +637,15 @@ font-size: 4rem;
 
 
 @media (max-width: 575px){
+
+  .title-box,  .img-box, .text-box{
+  margin-top: 20px;
+
+}
+
+  .bts-container{
+
+  width: 90%;}
 
 
   .section-title{
